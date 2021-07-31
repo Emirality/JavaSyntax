@@ -5,6 +5,7 @@ import java.util.function.*;
 
 public class EmbeddedFI {
     public static void main(String[] args) {
+        //u can use and or for more than 1 condition;
         //predicate check some condition
         Predicate<String> predicate = x -> x.length() > 5;
         predicate.test("hello");
